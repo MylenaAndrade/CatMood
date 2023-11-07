@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
+}
+
+body{
+    background-color: #F9C3C6;
+}
+
+.content{
+    width: 120vh;
+    height: 80vh;
+    padding: 1rem;
+    background-color: #F0F0F0;
+}
+
+@media screen and (min-width: 992px){
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+      }
+}
