@@ -7,7 +7,6 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Hachi+Maru+Pop&family=Inter:wght@400;600&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="css/global.css">
     <link rel="stylesheet" href="css/catmood.css">
     <script src="https://unpkg.com/@phosphor-icons/web"></script>
     <script src="js/script.js"></script>
@@ -35,7 +34,7 @@
         
         <div class="content">
             <ol class="window_bar">
-                <li>
+                <li class="window_catHand">
                     <img src="img/cathand.png" alt="CatHand">
                 </li>
                 
@@ -49,7 +48,7 @@
                     <i class="ph-bold ph-plus"></i>
                 </li>
 
-                <li>
+                <li class="bar_itens">
                     <i class="ph-bold ph-minus"></i>
                     <i class="ph-fill ph-browsers bar_item"></i>
                     <i class="ph-bold ph-x bar_item"></i>
@@ -82,27 +81,19 @@
                 
                 <li class="window_mood">
                     <img id="gif_cat" src="https://cataas.com/cat?width=250" alt="">
-                    <i class="ph-bold ph-caret-right"></i>
                 </li>
 
-                <li>
+                <li class="window_title">
                     <button onclick="catmood()">Search</button>
+                    <i class="ph-bold ph-caret-right"></i>
                 </li>
             </ol>
         </div>
     </section>
 
-    <footer>
-        <ol class="footer">
-            <li class="rights">
-                <img src="img/github.png" alt="github icon">
-                <p>Mylena Gusmão. All rights reserved.</p>
-            </li>
-            
-            <li>
-                <p></p>
-            </li>
-        </ol>
+    <footer class="rights">
+        <img src="img/github.png" alt="github icon">
+        <p>Mylena Gusmão. All rights reserved.</p>
     </footer>
 </body>
 </html>
