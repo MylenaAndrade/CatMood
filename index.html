@@ -57,25 +57,25 @@
 
             <ol class="adress_bar">
                 <li>
-                    <i class="ph-bold ph-arrow-left "></i>
-                    <i class="ph-bold ph-arrow-right"></i>
-                    <i class="ph-bold ph-clock-clockwise bar_item"></i>
+                    <i><img class="item" src="img/arrow-left.svg"  alt=""></i>
+                    <i><img class="item" src="img/arrow-right.svg" alt=""></i>
+                    <i><img class="item" src="img/clock-clockwise.svg" alt=""></i>
                 </li>
 
-                <li>
-                    <input id="title_cat" class="input" type="text" placeholder="The title of your mood">
-                </li>
+                <li class="search">
+                    <i><input id="title_cat" type="text" placeholder="The title of your mood"></i>
+                    <i onclick="catmood()"><img class="item" src="img/magnifying-glass.svg" alt=""></i>
 
                 <li>
-                    <i class="ph-bold ph-star"></i>
-                    <i class="ph-bold ph-list bar_item"></i>
+                    <i><img class="item" src="img/star.svg" alt=""></i>
+                    <i><img class="item" src="img/list.svg"  alt=""></i>
                 </li>
                 
             </ol>
 
             <ol>
                 <li class="window_title">
-                    <i class="ph-bold ph-caret-left"></i>
+                    <i><img src="img/caret-left.svg" alt=""></i>
                     <h1>CAT MOOD</h1>
                 </li>
                 
@@ -83,9 +83,8 @@
                     <img id="gif_cat" src="https://cataas.com/cat?width=250" alt="">
                 </li>
 
-                <li class="window_title">
-                    <button onclick="catmood()">Search</button>
-                    <i class="ph-bold ph-caret-right"></i>
+                <li class="arrow_right">
+                    <i><img src="img/caret-right.svg" alt=""></i>
                 </li>
             </ol>
         </div>

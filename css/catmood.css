@@ -89,16 +89,6 @@ header{
     margin: auto;
 }
 
-.input{
-    border: 1.5px solid #1E1E1E;
-    border-radius: 10px;
-    padding: 4px;
-}
-
-input::placeholder{
-    color: #cca7ddc5;
-}
-
 .bar_item{
     margin-left: 10px;
 }
@@ -113,6 +103,34 @@ input::placeholder{
     width: 80%;
 }
 
+
+.search{
+    display: flex;
+    align-items: center;
+}
+
+.item{
+    width: 16px;
+}
+
+input{
+    border: 1.5px solid #1E1E1E;
+    border-radius: 10px;
+    padding: 1vh;
+    padding-right: 2vh;
+    padding-left: 2vh;
+    margin-right: 1vh;
+}
+
+input::placeholder{
+    color: #cca7ddc5;
+}
+
+.arrow_right{
+    display: flex;
+    justify-content: flex-end;
+    margin: 1%;
+}
 
 button{
     display: flex;
@@ -147,7 +165,7 @@ footer{
     width: 10%;
 }
 
-@media screen and (min-width: 1080px){
+@media screen and (min-width: 1285px){
     section{
         display: flex;
         flex-direction: row;
@@ -182,10 +200,17 @@ footer{
         margin-left: 50%;
     }
 
-    .adress_bar input{
-        width: 800px;
-    
+    .item{
+        width: 20px;
     }
+
+    input{
+        padding: 1vh;
+        padding-right: 30vh;
+        padding-left: 30vh;
+        margin-right: 2vh;
+    }
+
 
     .window{
         padding-right: 5%;
